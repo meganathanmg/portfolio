@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meganathan D - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Welcome Section -->
+    <section class="welcome" id="welcome">
+        <div class="welcome-content">
+            <div class="welcome-text">
+                <h1 class="welcome-hello" id="helloText"></h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="welcome" id="welcomeTamil" style="display: none;">
+        <div class="welcome-content">
+            <div class="welcome-text">
+                <h1 class="welcome-tamil">வணக்கம்</h1>
+            </div>
+        </div>
+    </section>
+
+    <div class="site-bg" aria-hidden="true"></div>
+
+    <!-- Top navigation -->
+    <header class="topnav" id="topnav">
+        <div class="topnav-inner">
+            <a class="topnav-brand" href="#home" aria-label="Go to home">
+                <span class="topnav-avatar" aria-hidden="true">M</span>
+                <span class="topnav-name">Meganathan D</span>
+            </a>
+
+            <nav class="topnav-menu" id="topnavMenu" aria-label="Primary">
+                <a href="#home" class="topnav-link active"><i class="fas fa-house" aria-hidden="true"></i> Home</a>
+                <a href="#about" class="topnav-link"><i class="fas fa-user" aria-hidden="true"></i> About</a>
+                <a href="#experience" class="topnav-link"><i class="fas fa-briefcase" aria-hidden="true"></i> Experience</a>
+                <a href="#skills" class="topnav-link"><i class="fas fa-layer-group" aria-hidden="true"></i> Skills</a>
+                <a href="#contact" class="topnav-link"><i class="fas fa-paper-plane" aria-hidden="true"></i> Contact</a>
+            </nav>
+
+            <button type="button" class="topnav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="topnavMenu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="topnav-backdrop" aria-hidden="true"></div>
+
+    <div class="site-wrap">
+        <main class="main">
+            <!-- Hero Section -->
+            <section class="hero" id="home">
+                <div class="hero-glow" aria-hidden="true"></div>
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <p class="hero-kicker">Hello, I'm</p>
+                        <h1 class="hero-title">Meganathan D</h1>
+                        <p class="hero-subtitle">Full-Stack Developer &amp; CS Undergraduate</p>
+                        <p class="hero-description">
+                            Building reliable products with clean code. DevOps Intern @ Samsung R&amp;D Institute · 2× Hackathon Winner (UYIR Best Project, Designathon Runner-up).
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                            <a href="#about" class="btn btn-secondary">About Me</a>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://leetcode.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LeetCode">
+                                <i class="fas fa-code"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="profile-frame">
+                            <div class="profile-image-placeholder">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="profile-ring" aria-hidden="true"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Summary Section -->
+            <section class="summary section-block" id="about">
+                <div class="container">
+                    <header class="section-head">
+                        <span class="section-eyebrow">01 — About</span>
+                        <h2 class="section-title">About Me</h2>
+                    </header>
+                    <div class="summary-content">
+                        <p class="summary-text">
+                            Computer Science undergraduate with practical experience in full-stack development and database systems.
+                            Currently interning at Samsung R&amp;D Institute under the PRISM program. Recognized with 2× Hackathon wins,
+                            including Best Project at UYIR Hackathon and Runner-up at Designathon 2024. Skilled in C++, Python, Node.js,
+                            and modern web technologies, with a strong foundation in problem-solving and team collaboration.
+                        </p>
+                        <div class="highlights">
+                            <div class="highlight-card">
+                                <div class="highlight-icon"><i class="fas fa-trophy"></i></div>
+                                <h3>Achievements</h3>
+                                <p>2× Hackathon Winner</p>
+                            </div>
+                            <div class="highlight-card">
+                                <div class="highlight-icon"><i class="fas fa-code"></i></div>
+                                <h3>Focus</h3>
+                                <p>Full-Stack &amp; DevOps</p>
+                            </div>
+                            <div class="highlight-card">
+                                <div class="highlight-icon"><i class="fas fa-briefcase"></i></div>
+                                <h3>Internship</h3>
+                                <p>Samsung R&amp;D Institute</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section class="experience section-block" id="experience">
+                <div class="container">
+                    <header class="section-head">
+                        <span class="section-eyebrow">02 — Journey</span>
+                        <h2 class="section-title">Experience &amp; Education</h2>
+                    </header>
+
+                    <h3 class="subsection-title"><i class="fas fa-briefcase"></i> Professional Experience</h3>
+                    <div class="experience-container">
+                        <div class="experience-item">
+                            <div class="experience-marker"></div>
+                            <div class="experience-content">
+                                <h3 class="experience-title">DevOps Intern</h3>
+                                <p class="experience-company">Samsung R&amp;D Institute, Bengaluru</p>
+                                <p class="experience-duration"><i class="fas fa-calendar"></i> July 2025 – Present</p>
+                                <span class="experience-type">Remote</span>
+                                <p class="experience-description"><strong>Project:</strong> Database DevOps: CI/CD for Databases</p>
+                                <p class="experience-details">
+                                    Working on database DevOps and CI/CD pipeline development. Contributing to infrastructure automation
+                                    and continuous integration processes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="subsection-title" style="margin-top: 3rem;"><i class="fas fa-graduation-cap"></i> Education</h3>
+                    <div class="experience-container">
+                        <div class="experience-item">
+                            <div class="experience-marker"></div>
+                            <div class="experience-content">
+                                <h3 class="experience-title">B.E – Computer Science and Engineering</h3>
+                                <p class="experience-company">Kumaraguru College of Technology, Coimbatore</p>
+                                <p class="experience-duration"><i class="fas fa-calendar"></i> 2023 – 2027</p>
+                                <p class="experience-details"><strong>CGPA:</strong> 8.3/10</p>
+                            </div>
+                        </div>
+                        <div class="experience-item">
+                            <div class="experience-marker"></div>
+                            <div class="experience-content">
+                                <h3 class="experience-title">Higher Secondary Education</h3>
+                                <p class="experience-company">SSRM Higher Secondary School, Salem</p>
+                                <p class="experience-duration"><i class="fas fa-calendar"></i> 2023</p>
+                                <p class="experience-details"><strong>Grade:</strong> 96%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Achievements Section -->
+            <section class="achievements section-block">
+                <div class="container">
+                    <header class="section-head">
+                        <span class="section-eyebrow">03 — Highlights</span>
+                        <h2 class="section-title">Achievements</h2>
+                    </header>
+                    <div class="achievements-grid">
+                        <div class="achievement-card">
+                            <div class="achievement-icon"><i class="fas fa-medal"></i></div>
+                            <h3>Best Project</h3>
+                            <p>UYIR Hackathon 2025</p>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon"><i class="fas fa-star"></i></div>
+                            <h3>Runner-up</h3>
+                            <p>Designathon 2024</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section class="skills section-block" id="skills">
+                <div class="container">
+                    <header class="section-head">
+                        <span class="section-eyebrow">04 — Stack</span>
+                        <h2 class="section-title">Technical Skills</h2>
+                    </header>
+
+                    <h3 class="skill-category-title">Programming Languages</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card cpp-card">
+                            <div class="skill-icon-large"><i class="fab fa-cuttlefish"></i></div>
+                            <h4 class="skill-name">C++</h4>
+                        </div>
+                        <div class="skill-card java-card">
+                            <div class="skill-icon-large"><i class="fab fa-java"></i></div>
+                            <h4 class="skill-name">Java</h4>
+                        </div>
+                        <div class="skill-card python-card">
+                            <div class="skill-icon-large"><i class="fab fa-python"></i></div>
+                            <h4 class="skill-name">Python</h4>
+                        </div>
+                        <div class="skill-card js-card">
+                            <div class="skill-icon-large"><i class="fab fa-js-square"></i></div>
+                            <h4 class="skill-name">JavaScript</h4>
+                        </div>
+                    </div>
+
+                    <h3 class="skill-category-title">Web Technologies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card html-card">
+                            <div class="skill-icon-large"><i class="fab fa-html5"></i></div>
+                            <h4 class="skill-name">HTML5</h4>
+                        </div>
+                        <div class="skill-card css-card">
+                            <div class="skill-icon-large"><i class="fab fa-css3-alt"></i></div>
+                            <h4 class="skill-name">CSS3</h4>
+                        </div>
+                        <div class="skill-card react-card">
+                            <div class="skill-icon-large"><i class="fab fa-react"></i></div>
+                            <h4 class="skill-name">React</h4>
+                        </div>
+                        <div class="skill-card node-card">
+                            <div class="skill-icon-large"><i class="fab fa-node-js"></i></div>
+                            <h4 class="skill-name">Node.js</h4>
+                        </div>
+                        <div class="skill-card express-card">
+                            <div class="skill-icon-large"><i class="fas fa-server"></i></div>
+                            <h4 class="skill-name">Express</h4>
+                        </div>
+                    </div>
+
+                    <h3 class="skill-category-title">Database &amp; DevOps</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card mongo-card">
+                            <div class="skill-icon-large"><i class="fas fa-leaf"></i></div>
+                            <h4 class="skill-name">MongoDB</h4>
+                        </div>
+                        <div class="skill-card mysql-card">
+                            <div class="skill-icon-large"><i class="fas fa-database"></i></div>
+                            <h4 class="skill-name">MySQL</h4>
+                        </div>
+                        <div class="skill-card cicd-card">
+                            <div class="skill-icon-large"><i class="fas fa-code-branch"></i></div>
+                            <h4 class="skill-name">CI/CD</h4>
+                        </div>
+                        <div class="skill-card devops-card">
+                            <div class="skill-icon-large"><i class="fas fa-tools"></i></div>
+                            <h4 class="skill-name">DevOps</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="contact section-block" id="contact">
+                <div class="container">
+                    <header class="section-head">
+                        <span class="section-eyebrow">05 — Contact</span>
+                        <h2 class="section-title">Get In Touch</h2>
+                    </header>
+                    <p class="contact-subtitle">Open to internships, collaborations, and interesting problems.</p>
+
+                    <div class="contact-content">
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p>meganathan1226@email.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <h4>Phone</h4>
+                                    <p>+91 6380505387</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-location-dot"></i>
+                                <div>
+                                    <h4>Location</h4>
+                                    <p>Salem, Tamil Nadu, India</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required autocomplete="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required autocomplete="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer-content">
+                        <p>&copy; 2026 Meganathan D. All rights reserved.</p>
+                        <div class="footer-social">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://leetcode.com" target="_blank" rel="noopener noreferrer" aria-label="LeetCode"><i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
